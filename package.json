@@ -1,0 +1,16 @@
+{
+  "name": "fileicon.css",
+  "version": "0.1.0",
+  "description": "Pure CSS file icons",
+  "style": "fileicon.css",
+  "files": [
+    "fileicon.css"
+  ],
+  "homepage": "https://github.com/picturepan2/fileicon.css",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/picturepan2/fileicon.css"
+  },
+  "author": "Picturepan2",
+  "license": "MIT"
+}

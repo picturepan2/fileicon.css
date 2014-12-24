@@ -1,0 +1,13 @@
+{
+  "name": "fileicon.css",
+  "version": "0.1.0",
+  "main": "fileicon.css",
+  "author": "Picturepan2Z",
+  "ignore": [
+    "README.md",
+    "README_CN.md",
+    "LICENSE",
+    "package.json",
+    "index.html"
+  ]
+}
