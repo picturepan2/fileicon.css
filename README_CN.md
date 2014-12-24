@@ -14,7 +14,7 @@
 
 显示为:
 
-
+![doc](https://cloud.githubusercontent.com/assets/119550/5550524/583be08c-8be2-11e4-99a3-d7e9f24b1db3.jpg)
 
 ## 类型
 
