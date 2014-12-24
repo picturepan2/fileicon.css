@@ -1,0 +1,67 @@
+@charset "utf-8";
+/*! fileicon.css v1.0.0 | MIT License | github.com/picturepan2/fileicon.css */
+.file-icon {
+  font-family: \5FAE\8F6F\96C5\9ED1, \534E\6587\9ED1\4F53, "Segoe UI", Tahoma, Arial;
+  display: block;
+  width: 36px;
+  height: 48px;
+  background: #018FEF;
+  position: relative;
+  border-radius: 2px;
+  margin: 0 auto;
+}
+.file-icon::before {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-bottom-left-radius: 2px;
+  border-width: 6px;
+  border-style: solid;
+  border-color: #fff #fff rgba(255,255,255,.45) rgba(255,255,255,.45);
+}
+.file-icon::after {
+  display: block;
+  content: attr(data-type);
+  position: absolute;
+  bottom: 8px;
+  left: 5px;
+  height: 15px;
+  line-height: 15px;
+  font-size: 16px;
+  color: #fff;
+  width: 25px;
+}
+.file-icon.size-120 {
+  box-shadow: none;
+  width: 120px;
+  height: 160px;
+  border-radius: 4px;
+}
+.file-icon.size-120::before {
+  border-bottom-left-radius: 8px;
+  border-width: 20px;
+}
+.file-icon.size-120::after {
+  font-size: 24px;
+  left: 20px;
+  bottom: 20px;
+}
+.file-icon[data-type=zip] {
+  background: #98ABC0;
+}
+.file-icon[data-type^=doc] {
+  background: #307CF1;
+}
+.file-icon[data-type^=xls] {
+  background: #38A240;
+}
+.file-icon[data-type^=ppt] {
+  background: #D24726;
+}
+.file-icon[data-type=pdf] {
+  background: #E13D34;
+}
