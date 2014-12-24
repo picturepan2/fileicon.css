@@ -2,14 +2,15 @@
 /*! fileicon.css v1.0.0 | MIT License | github.com/picturepan2/fileicon.css */
 /* fileicon.basic */
 .file-icon {
-  font-family: \5FAE\8F6F\96C5\9ED1, \534E\6587\9ED1\4F53, "Segoe UI", Tahoma, Arial;
+  font-family: Arial, Tahoma;
+  font-weight: 300;
   display: block;
   width: 24px;
   height: 32px;
   background: #018FEF;
   position: relative;
   border-radius: 2px;
-  margin: 20px auto;
+  -webkit-font-smoothing: antialiased;
 }
 .file-icon::before {
   display: block;
@@ -22,7 +23,7 @@
   border-bottom-left-radius: 2px;
   border-width: 5px;
   border-style: solid;
-  border-color: #fff #fff rgba(255,255,255,.45) rgba(255,255,255,.45);
+  border-color: #FFF #FFF rgba(255,255,255,.35) rgba(255,255,255,.35);
 }
 .file-icon::after {
   display: block;
@@ -34,7 +35,7 @@
   color: #fff;
   text-transform: lowercase;
   width: 100%;
-  padding: 2px 2px;
+  padding: 2px;
   white-space: nowrap;
   overflow: hidden;
 }
@@ -50,7 +51,8 @@
 }
 .file-icon.size-xs::after {
   content: "";
-  border-top: 2px solid rgba(255,255,255,.45);
+  border-bottom: 2px solid rgba(255,255,255,.45);
+  width: auto;
   left: 2px;
   right: 2px;
   bottom: 3px;
@@ -74,7 +76,7 @@
   border-radius: 3px;
 }
 .file-icon.size-lg::before {
-  border-bottom-left-radius: 3px;
+  border-bottom-left-radius: 2px;
   border-width: 8px;
 }
 .file-icon.size-lg::after {
@@ -95,8 +97,9 @@
   padding: 4px 10px;
 }
 /* fileicon.types */
-.file-icon[data-type=zip] {
-  background: #98ABC0;
+.file-icon[data-type=zip],
+.file-icon[data-type=rar] {
+  background: #ACACAC;
 }
 .file-icon[data-type^=doc] {
   background: #307CF1;
@@ -109,4 +112,30 @@
 }
 .file-icon[data-type=pdf] {
   background: #E13D34;
+}
+.file-icon[data-type=psd] {
+  background: #307CF1;
+}
+.file-icon[data-type=txt] {
+  background: #5EB533;
+}
+.file-icon[data-type=mp3],
+.file-icon[data-type=wma],
+.file-icon[data-type=m4a],
+.file-icon[data-type=flac] {
+  background: #8E44AD;
+}
+.file-icon[data-type=mp4],
+.file-icon[data-type=wmv],
+.file-icon[data-type=mov],
+.file-icon[data-type=avi],
+.file-icon[data-type=mkv] {
+  background: #7A3CE7;
+}
+.file-icon[data-type=bmp],
+.file-icon[data-type=jpg],
+.file-icon[data-type=jpeg],
+.file-icon[data-type=gif],
+.file-icon[data-type=png] {
+  background: #CCC;
 }
