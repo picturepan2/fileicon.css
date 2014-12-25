@@ -7,64 +7,116 @@
     <link rel="stylesheet" href="fileicon.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
     <style>
+        .section {
+            width: 100%;
+        }
+        .homepage-header {
+            height: 480px;
+            color: #FFF;
+            background-color: #15A4FA;
+            background: url("https://cloud.githubusercontent.com/assets/126385/5554467/0c34b954-8c94-11e4-8c14-60c646f7e843.jpg") center center no-repeat;
+            background-size: cover;
+            position: relative;
+            text-align: center;
+        }
+        .gradient {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            background-image: linear-gradient(to bottom, rgba(50, 61, 71, 0) 0%, rgba(50, 61, 71, 0.8) 100%);
+        }
+        .wrapper {
+            width: 960px;
+            margin: 0 auto;
+            padding: 30px 0;
+        }
+        .header-title {
+            margin-top: 180px;
+        }
+        .wrapper h1,
+        .wrapper h4 {
+            color: #64717E;
+            text-align: center;
+            position: relative;
+            text-shadow: 0 2px #EEE;
+        }
+        .header-title h1,
+        .header-title h4 {
+            color: #FFF;
+            text-shadow: 0 2px #333;
+        }
         .icons {
             width: 960px;
             margin: 20px auto;
         }
         .file-icon {
-            margin: 5px 20px;
+            margin: 5px 10px;
             display: inline-block;
         }
     </style>
 </head>
 <body>
-<div class="icons">
-    <div class="row">
-        <div class="file-icon file-icon-xs" data-type="doc"></div>
-        <div class="file-icon file-icon-xs" data-type="pdf"></div>
-        <div class="file-icon file-icon-xs" data-type="</>"></div>
-        <div class="file-icon file-icon-xs" data-type="ppt"></div>
-        <div class="file-icon file-icon-xs" data-type="mp3"></div>
-        <div class="file-icon file-icon-xs" data-type="mp4"></div>
-        <div class="file-icon file-icon-xs" data-type="psd"></div>
-        <div class="file-icon file-icon-xs" data-type="txt"></div>
+<div class="homepage-header section">
+    <div class="gradient"></div>
+    <div class="wrapper">
+        <div class="header-title">
+            <h1>Fileicon.css</h1>
+            <h4>Pure CSS file icons</h4>
+        </div>
     </div>
-    <div class="row">
-        <div class="file-icon file-icon-sm" data-type="doc"></div>
-        <div class="file-icon file-icon-sm" data-type="pdf"></div>
-        <div class="file-icon file-icon-sm" data-type="</>"></div>
-        <div class="file-icon file-icon-sm" data-type="ppt"></div>
-        <div class="file-icon file-icon-sm" data-type="mp3"></div>
-        <div class="file-icon file-icon-sm" data-type="mp4"></div>
-        <div class="file-icon file-icon-sm" data-type="psd"></div>
-        <div class="file-icon file-icon-sm" data-type="txt"></div>
-    </div>
-    <div class="row">
-        <div class="file-icon" data-type="doc"></div>
-        <div class="file-icon" data-type="pdf"></div>
-        <div class="file-icon" data-type="</>"></div>
-        <div class="file-icon" data-type="ppt"></div>
-        <div class="file-icon" data-type="mp3"></div>
-        <div class="file-icon" data-type="mp4"></div>
-        <div class="file-icon" data-type="psd"></div>
-        <div class="file-icon" data-type="txt"></div>
-        <div class="file-icon" data-type="gif"></div>
-    </div>
-    <div class="row">
-        <div class="file-icon file-icon-lg" data-type="doc"></div>
-        <div class="file-icon file-icon-lg" data-type="pdf"></div>
-        <div class="file-icon file-icon-lg" data-type="</>"></div>
-        <div class="file-icon file-icon-lg" data-type="ppt"></div>
-        <div class="file-icon file-icon-lg" data-type="mp3"></div>
-        <div class="file-icon file-icon-lg" data-type="mp4"></div>
-    </div>
-    <div class="row">
-        <div class="file-icon file-icon-xl" data-type="doc"></div>
-        <div class="file-icon file-icon-xl" data-type="pdf"></div>
-        <div class="file-icon file-icon-xl" data-type="</>"></div>
-        <div class="file-icon file-icon-xl" data-type="ppt"></div>
-        <div class="file-icon file-icon-xl" data-type="mp3"></div>
-        <div class="file-icon file-icon-xl" data-type="mp4"></div>
+</div>
+<div class="homepage-demo section">
+    <div class="wrapper">
+        <h1>范例</h1>
+        <div class="icons">
+            <div class="file-icon file-icon-xs" data-type="doc"></div>
+            <div class="file-icon file-icon-xs" data-type="pdf"></div>
+            <div class="file-icon file-icon-xs" data-type="</>"></div>
+            <div class="file-icon file-icon-xs" data-type="ppt"></div>
+            <div class="file-icon file-icon-xs" data-type="mp3"></div>
+            <div class="file-icon file-icon-xs" data-type="mp4"></div>
+            <div class="file-icon file-icon-xs" data-type="psd"></div>
+            <div class="file-icon file-icon-xs" data-type="txt"></div>
+        </div>
+        <div class="icons">
+            <div class="file-icon file-icon-sm" data-type="doc"></div>
+            <div class="file-icon file-icon-sm" data-type="pdf"></div>
+            <div class="file-icon file-icon-sm" data-type="</>"></div>
+            <div class="file-icon file-icon-sm" data-type="ppt"></div>
+            <div class="file-icon file-icon-sm" data-type="mp3"></div>
+            <div class="file-icon file-icon-sm" data-type="mp4"></div>
+            <div class="file-icon file-icon-sm" data-type="psd"></div>
+            <div class="file-icon file-icon-sm" data-type="txt"></div>
+        </div>
+        <div class="icons">
+            <div class="file-icon" data-type="doc"></div>
+            <div class="file-icon" data-type="pdf"></div>
+            <div class="file-icon" data-type="</>"></div>
+            <div class="file-icon" data-type="ppt"></div>
+            <div class="file-icon" data-type="mp3"></div>
+            <div class="file-icon" data-type="mp4"></div>
+            <div class="file-icon" data-type="psd"></div>
+            <div class="file-icon" data-type="txt"></div>
+            <div class="file-icon" data-type="gif"></div>
+        </div>
+        <div class="icons">
+            <div class="file-icon file-icon-lg" data-type="doc"></div>
+            <div class="file-icon file-icon-lg" data-type="pdf"></div>
+            <div class="file-icon file-icon-lg" data-type="</>"></div>
+            <div class="file-icon file-icon-lg" data-type="ppt"></div>
+            <div class="file-icon file-icon-lg" data-type="mp3"></div>
+            <div class="file-icon file-icon-lg" data-type="mp4"></div>
+        </div>
+        <div class="icons">
+            <div class="file-icon file-icon-xl" data-type="doc"></div>
+            <div class="file-icon file-icon-xl" data-type="pdf"></div>
+            <div class="file-icon file-icon-xl" data-type="</>"></div>
+            <div class="file-icon file-icon-xl" data-type="ppt"></div>
+            <div class="file-icon file-icon-xl" data-type="mp3"></div>
+            <div class="file-icon file-icon-xl" data-type="mp4"></div>
+        </div>
     </div>
 </div>
 </body>
