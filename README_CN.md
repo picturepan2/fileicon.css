@@ -9,7 +9,7 @@
 # 使用
 
 ```html
-<div class="file-icon size-36" data-type="doc"></div>
+<div class="file-icon file-icon-xl" data-type="doc"></div>
 ```
 
 显示为:
@@ -30,17 +30,18 @@
 
 使用 `file-icon-xx` 来使用尺寸，支持：
  
-- xs  (48x48)
-- sm  (96x96)
-- md  (128x128)
-- lg  (256x256)
+- xs  (12x16)
+- sm  (18x24)
+- 默认 (24x32)
+- lg  (48x64)
+- xl  (120x160)
 
 ## 自定义
 
 如果要定义自己的类型，只需要：
 
 ```css
-.file-icon[data-type^=custom] {
+.file-icon[data-type=custom] {
   background: #38A240;
 }
 ```

@@ -2,14 +2,14 @@ Languages: [中文文档]
 
 # Intro
 
-Pure CSS file icons. Help you show files icon without Image. (eg. doc, pdf, png, zip and so on).
+Pure CSS file icons. Help you show files icon with pure CSS codes. (eg. doc, pdf, png, zip and so on).
 
 See the [DEMO]
 
 # Usage
 
 ```html
-<div class="file-icon size-36" data-type="doc"></div>
+<div class="file-icon file-icon-xl" data-type="doc"></div>
 ```
 
 Will display:
@@ -20,7 +20,7 @@ Will display:
 
 Use attribute `data-type` to define the file type, We had already defined some file type styles, includes:
 
-- doc, docx.
+- doc, docx
 - xls, xlsx
 - ppt, pptx
 - pdf
@@ -30,17 +30,18 @@ Use attribute `data-type` to define the file type, We had already defined some f
 
 Use class `file-icon-xx` for size define, We support some size below:
  
-- xs  (48x48)
-- sm  (96x96)
-- md  (128x128)
-- lg  (256x256)
+- xs  (12x16)
+- sm  (18x24)
+- default (24x32)
+- lg  (48x64)
+- xl  (120x160)
 
 ## Custom
 
-Want define your file types, just set below:
+Use `data-type` css selector to style your file type colors:
 
 ```css
-.file-icon[data-type^=custom] {
+.file-icon[data-type=custom] {
   background: #38A240;
 }
 ```
