@@ -105,16 +105,13 @@
   background: #307CF1;
 }
 .file-icon[data-type^=xls] {
-  background: #38A240;
+  background: #0F9D58;
 }
 .file-icon[data-type^=ppt] {
   background: #D24726;
 }
 .file-icon[data-type=pdf] {
   background: #E13D34;
-}
-.file-icon[data-type=psd] {
-  background: #307CF1;
 }
 .file-icon[data-type=txt] {
   background: #5EB533;
@@ -137,5 +134,5 @@
 .file-icon[data-type=jpeg],
 .file-icon[data-type=gif],
 .file-icon[data-type=png] {
-  background: #CCC;
+  background: #F4B400;
 }
