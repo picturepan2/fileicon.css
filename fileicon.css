@@ -2,7 +2,7 @@
 /*! fileicon.css v1.0.0 | MIT License | github.com/picturepan2/fileicon.css */
 /* fileicon.basic */
 .file-icon {
-  font-family: Arial, Tahoma;
+  font-family: Arial, Tahoma, sans-serif;
   font-weight: 300;
   display: block;
   width: 24px;
