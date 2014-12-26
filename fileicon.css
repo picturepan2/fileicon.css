@@ -10,6 +10,7 @@
   background: #018FEF;
   position: relative;
   border-radius: 2px;
+  text-align: left;
   -webkit-font-smoothing: antialiased;
 }
 .file-icon::before {
@@ -84,13 +85,13 @@
   padding: 4px 6px;
 }
 .file-icon-xl {
-  width: 120px;
-  height: 160px;
+  width: 96px;
+  height: 128px;
   border-radius: 4px;
 }
 .file-icon-xl::before {
   border-bottom-left-radius: 4px;
-  border-width: 20px;
+  border-width: 16px;
 }
 .file-icon-xl::after {
   font-size: 24px;
