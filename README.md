@@ -2,7 +2,7 @@ Languages: [中文文档]
 
 # Intro
 
-Pure CSS file icons. Help you show files icon with pure CSS codes. (eg. doc, pdf, png, zip and so on).
+Pure CSS file icons. Help you create file icons with pure CSS codes. (eg. doc, pdf, png, zip and so on).
 
 See the [DEMO]
 
@@ -34,7 +34,7 @@ Use class `file-icon-xx` for size define, We support some size below:
 - sm  (18x24)
 - default (24x32)
 - lg  (48x64)
-- xl  (120x160)
+- xl  (96x128)
 
 ## Custom
 
@@ -45,6 +45,10 @@ Use `data-type` css selector to style your file type colors:
   background: #38A240;
 }
 ```
+
+# Who are using
+
+- PUBU.im - [https://pubu.im](https://pubu.im)
 
 # License
 

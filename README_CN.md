@@ -2,7 +2,7 @@
 
 # 介绍
 
-文件类型图标的纯 CSS 版本。可以不用图片来文件图标。（例如：doc, pdf, png, zip 等等）。
+文件类型图标的纯 CSS 版本。可以不用图片来创建文件图标。（例如：doc, pdf, png, zip 等等）。
 
 查看 [DEMO]
 
@@ -45,6 +45,10 @@
   background: #38A240;
 }
 ```
+
+# 谁在用
+
+- PUBU.im - [https://pubu.im](https://pubu.im)
 
 # License
 
