@@ -129,7 +129,10 @@
     background: #0f9d58;
 }
 
-.file-icon[data-type^=ppt],
+.file-icon[data-type^=ppt] {
+    background: #d24726;
+}
+
 .file-icon[data-type=pdf] {
     background: #e13d34;
 }
