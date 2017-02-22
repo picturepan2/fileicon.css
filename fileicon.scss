@@ -1,0 +1,209 @@
+.file-icon {
+    background: #018fef;
+    border-radius: 2px;
+    display: block;
+    font-family: 'Arial', 'Tahoma', 'sans-serif';
+    font-weight: 300;
+    height: 32px;
+    position: relative;
+    text-align: left;
+    width: 24px;
+
+    &.upload {
+        background: #acacac;
+    }
+
+    &.uploaded {
+        background: #0f9d58;
+    }
+
+    &::before {
+        border-bottom-left-radius: 2px;
+        border-color: #fff #fff rgba(255, 255, 255, 0.35) rgba(255, 255, 255, 0.35);
+        border-style: solid;
+        border-width: 5px;
+        content: '';
+        display: block;
+        height: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 0;
+    }
+
+    &::after {
+        bottom: 0;
+        color: #fff;
+        content: attr(data-type);
+        display: block;
+        font-size: 10px;
+        left: 0;
+        overflow: hidden;
+        padding: 2px;
+        position: absolute;
+        text-transform: lowercase;
+        white-space: nowrap;
+        width: 100%;
+    }
+}
+
+.file-icon-xs {
+    border-radius: 2px;
+    height: 16px;
+    width: 12px;
+
+    &::before {
+        border-bottom-left-radius: 1px;
+        border-width: 3px;
+    }
+
+    &::after {
+        border-bottom: 2px solid rgba(255, 255, 255, 0.45);
+        bottom: 3px;
+        content: '';
+        left: 2px;
+        right: 2px;
+        width: auto;
+    }
+}
+
+.file-icon-sm {
+    border-radius: 2px;
+    height: 24px;
+    width: 18px;
+
+    &::before {
+        border-bottom-left-radius: 2px;
+        border-width: 4px;
+    }
+
+    &::after {
+        font-size: 7px;
+        padding: 2px;
+    }
+}
+
+.file-icon-lg {
+    border-radius: 3px;
+    height: 64px;
+    width: 48px;
+
+    &::before {
+        border-bottom-left-radius: 2px;
+        border-width: 8px;
+    }
+
+    &::after {
+        font-size: 16px;
+        padding: 4px 6px;
+    }
+}
+
+
+.file-icon-xl {
+    border-radius: 4px;
+    height: 128px;
+    width: 96px;
+
+    &::before {
+        border-bottom-left-radius: 4px;
+        border-width: 16px;
+    }
+
+    &::after {
+        font-size: 24px;
+        padding: 4px 10px;
+    }
+}
+
+.file-icon[data-type=zip] {
+    background: #acacac;
+}
+
+.file-icon[data-type=rar] {
+    background: #acacac;
+}
+
+.file-icon[data-type=upload] {
+    background: #acacac;
+}
+
+.file-icon[data-type^=doc] {
+    background: #307cf1;
+}
+
+.file-icon[data-type^=xls] {
+    background: #0f9d58;
+}
+
+.file-icon[data-type^=uploaded] {
+    background: #0f9d58;
+}
+
+.file-icon[data-type^=ppt] {
+    background: #d24726;
+}
+
+.file-icon[data-type=pdf] {
+    background: #e13d34;
+}
+
+.file-icon[data-type=txt] {
+    background: #5eb533;
+}
+
+.file-icon[data-type=mp3] {
+    background: #8e44ad;
+}
+
+.file-icon[data-type=wma] {
+    background: #8e44ad;
+}
+
+.file-icon[data-type=m4a] {
+    background: #8e44ad;
+}
+
+.file-icon[data-type=flac] {
+    background: #8e44ad;
+}
+
+.file-icon[data-type=mp4] {
+    background: #7a3ce7;
+}
+
+.file-icon[data-type=wmv] {
+    background: #7a3ce7;
+}
+
+.file-icon[data-type=mov] {
+    background: #7a3ce7;
+}
+
+.file-icon[data-type=avi] {
+    background: #7a3ce7;
+}
+
+.file-icon[data-type=mkv] {
+    background: #7a3ce7;
+}
+
+.file-icon[data-type=bmp] {
+    background: #f4b400;
+}
+
+.file-icon[data-type=jpg] {
+    background: #f4b400;
+}
+
+.file-icon[data-type=jpeg] {
+    background: #f4b400;
+}
+
+.file-icon[data-type=gif] {
+    background: #f4b400;
+}
+
+.file-icon[data-type=png] {
+    background: #f4b400;
+}
