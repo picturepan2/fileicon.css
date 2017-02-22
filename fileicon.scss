@@ -116,15 +116,8 @@
     }
 }
 
-.file-icon[data-type=zip] {
-    background: #acacac;
-}
-
+.file-icon[data-type=zip],
 .file-icon[data-type=rar] {
-    background: #acacac;
-}
-
-.file-icon[data-type=upload] {
     background: #acacac;
 }
 
@@ -136,14 +129,7 @@
     background: #0f9d58;
 }
 
-.file-icon[data-type^=uploaded] {
-    background: #0f9d58;
-}
-
-.file-icon[data-type^=ppt] {
-    background: #d24726;
-}
-
+.file-icon[data-type^=ppt],
 .file-icon[data-type=pdf] {
     background: #e13d34;
 }
@@ -152,58 +138,25 @@
     background: #5eb533;
 }
 
-.file-icon[data-type=mp3] {
-    background: #8e44ad;
-}
-
-.file-icon[data-type=wma] {
-    background: #8e44ad;
-}
-
-.file-icon[data-type=m4a] {
-    background: #8e44ad;
-}
-
+.file-icon[data-type=mp3],
+.file-icon[data-type=wma],
+.file-icon[data-type=m4a],
 .file-icon[data-type=flac] {
     background: #8e44ad;
 }
 
-.file-icon[data-type=mp4] {
-    background: #7a3ce7;
-}
-
-.file-icon[data-type=wmv] {
-    background: #7a3ce7;
-}
-
-.file-icon[data-type=mov] {
-    background: #7a3ce7;
-}
-
-.file-icon[data-type=avi] {
-    background: #7a3ce7;
-}
-
+.file-icon[data-type=mp4],
+.file-icon[data-type=wmv],
+.file-icon[data-type=mov],
+.file-icon[data-type=avi],
 .file-icon[data-type=mkv] {
     background: #7a3ce7;
 }
 
-.file-icon[data-type=bmp] {
-    background: #f4b400;
-}
-
-.file-icon[data-type=jpg] {
-    background: #f4b400;
-}
-
-.file-icon[data-type=jpeg] {
-    background: #f4b400;
-}
-
-.file-icon[data-type=gif] {
-    background: #f4b400;
-}
-
+.file-icon[data-type=bmp],
+.file-icon[data-type=jpg],
+.file-icon[data-type=jpeg],
+.file-icon[data-type=gif],
 .file-icon[data-type=png] {
     background: #f4b400;
 }
