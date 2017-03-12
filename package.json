@@ -1,17 +1,18 @@
 {
   "name": "fileicon.css",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/picturepan2/fileicon.css",
   "author": "Yan Zhu <picturepan2@hotmail.com>",
-  "description": "Pure CSS file icons",
-  "main": "spectre.less",
+  "description": "Fileicon.css - The Customizable pure CSS file icons",
+  "main": "fileicon.css",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/picturepan2/fileicon.css.git"
+    "url": "https://github.com/picturepan2/fileicon.css.git"
   },
   "license": "MIT",
   "keywords": [
     "css",
+    "pure-css",
     "file",
     "icons",
     "front-end",

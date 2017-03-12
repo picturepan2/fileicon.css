@@ -1,13 +1,13 @@
 @charset "utf-8";
-/*! fileicon.css v1.0.0 | MIT License | github.com/picturepan2/fileicon.css */
+/*! fileicon.css v0.1.1 | MIT License | github.com/picturepan2/fileicon.css */
 /* fileicon.basic */
 .file-icon {
   font-family: Arial, Tahoma, sans-serif;
   font-weight: 300;
-  display: block;
+  display: inline-block;
   width: 24px;
   height: 32px;
-  background: #018FEF;
+  background: #018fef;
   position: relative;
   border-radius: 2px;
   text-align: left;
@@ -24,7 +24,7 @@
   border-bottom-left-radius: 2px;
   border-width: 5px;
   border-style: solid;
-  border-color: #FFF #FFF rgba(255,255,255,.35) rgba(255,255,255,.35);
+  border-color: #fff #fff rgba(255,255,255,.35) rgba(255,255,255,.35);
 }
 .file-icon::after {
   display: block;
@@ -100,40 +100,40 @@
 /* fileicon.types */
 .file-icon[data-type=zip],
 .file-icon[data-type=rar] {
-  background: #ACACAC;
+  background: #acacac;
 }
 .file-icon[data-type^=doc] {
-  background: #307CF1;
+  background: #307cf1;
 }
 .file-icon[data-type^=xls] {
-  background: #0F9D58;
+  background: #0f9d58;
 }
 .file-icon[data-type^=ppt] {
-  background: #D24726;
+  background: #d24726;
 }
 .file-icon[data-type=pdf] {
-  background: #E13D34;
+  background: #e13d34;
 }
 .file-icon[data-type=txt] {
-  background: #5EB533;
+  background: #5eb533;
 }
 .file-icon[data-type=mp3],
 .file-icon[data-type=wma],
 .file-icon[data-type=m4a],
 .file-icon[data-type=flac] {
-  background: #8E44AD;
+  background: #8e44ad;
 }
 .file-icon[data-type=mp4],
 .file-icon[data-type=wmv],
 .file-icon[data-type=mov],
 .file-icon[data-type=avi],
 .file-icon[data-type=mkv] {
-  background: #7A3CE7;
+  background: #7a3ce7;
 }
 .file-icon[data-type=bmp],
 .file-icon[data-type=jpg],
 .file-icon[data-type=jpeg],
 .file-icon[data-type=gif],
 .file-icon[data-type=png] {
-  background: #F4B400;
+  background: #f4b400;
 }
