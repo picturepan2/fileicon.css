@@ -24,7 +24,9 @@
   border-bottom-left-radius: 2px;
   border-width: 5px;
   border-style: solid;
-  border-color: #fff #fff rgba(255,255,255,.35) rgba(255,255,255,.35);
+  /* border-color: #fff #fff rgba(255,255,255,.35) rgba(255,255,255,.35); */
+  border-color: rgba(255, 255, 255, 0) rgba(255, 255, 255, 0)
+                rgba(255,255,255,.35) rgba(255,255,255,.35);
 }
 .file-icon::after {
   display: block;
@@ -98,7 +100,7 @@
   padding: 4px 10px;
 }
 /* fileicon.types */
-.file-icon[data-type=zip],
+/* .file-icon[data-type=zip],
 .file-icon[data-type=rar] {
   background: #acacac;
 }
@@ -136,4 +138,227 @@
 .file-icon[data-type=gif],
 .file-icon[data-type=png] {
   background: #f4b400;
+} */
+
+/* zip rar */
+.file-icon.file-icon-xl[data-type=zip],
+.file-icon.file-icon-lg[data-type=zip],
+.file-icon.file-icon-xl[data-type=rar],
+.file-icon.file-icon-lg[data-type=rar]
+{
+  background: linear-gradient(45deg, #acacac 85.7%, #acacac 85.7%,rgba(255, 255, 255, 0) 85.7%, rgba(255, 255, 255, 0));
+}
+.file-icon[data-type=zip],
+.file-icon[data-type=rar]
+{
+  background: linear-gradient(45deg, #acacac 82%, #acacac 82%,rgba(255, 255, 255, 0) 82%, rgba(255, 255, 255, 0));
+}
+.file-icon.file-icon-sm[data-type=zip],
+.file-icon.file-icon-sm[data-type=rar]
+{
+  background: linear-gradient(45deg, #acacac 81%, #acacac 81%,rgba(255, 255, 255, 0) 81%, rgba(255, 255, 255, 0));
+}
+.file-icon.file-icon-xs[data-type=zip], 
+.file-icon.file-icon-xs[data-type=rar]
+{
+  background: linear-gradient(45deg, #acacac 79%, #acacac 79%,rgba(255, 255, 255, 0) 79%, rgba(255, 255, 255, 0));
+}
+/* doc */
+.file-icon.file-icon-xl[data-type^=doc],
+.file-icon.file-icon-lg[data-type^=doc]
+{
+  background: linear-gradient(45deg, #307cf1 85.7%, #307cf1 85.7%,rgba(255, 255, 255, 0) 85.7%, rgba(255, 255, 255, 0));
+}
+.file-icon[data-type^=doc]
+{
+  background: linear-gradient(45deg, #307cf1 82%, #307cf1 82%,rgba(255, 255, 255, 0) 82%, rgba(255, 255, 255, 0));
+}
+.file-icon.file-icon-sm[data-type^=doc]
+{
+  background: linear-gradient(45deg, #307cf1 81%, #307cf1 81%,rgba(255, 255, 255, 0) 81%, rgba(255, 255, 255, 0));
+}
+.file-icon.file-icon-xs[data-type^=doc]
+{
+  background: linear-gradient(45deg, #307cf1 79%, #307cf1 79%,rgba(255, 255, 255, 0) 79%, rgba(255, 255, 255, 0));
+}
+/* xls */
+.file-icon.file-icon-xl[data-type^=xls],
+.file-icon.file-icon-lg[data-type^=xls]
+{
+  background: linear-gradient(45deg, #0f9d58 85.7%, #0f9d58 85.7%,rgba(255, 255, 255, 0) 85.7%, rgba(255, 255, 255, 0));
+}
+.file-icon[data-type^=xls]
+{
+  background: linear-gradient(45deg, #0f9d58 82%, #0f9d58 82%,rgba(255, 255, 255, 0) 82%, rgba(255, 255, 255, 0));
+}
+.file-icon.file-icon-sm[data-type^=xls]
+{
+  background: linear-gradient(45deg, #0f9d58 81%, #0f9d58 81%,rgba(255, 255, 255, 0) 81%, rgba(255, 255, 255, 0));
+}
+.file-icon.file-icon-xs[data-type^=xls]
+{
+  background: linear-gradient(45deg, #0f9d58 79%, #0f9d58 79%,rgba(255, 255, 255, 0) 79%, rgba(255, 255, 255, 0));
+}
+/* ppt */
+.file-icon.file-icon-xl[data-type^=ppt],
+.file-icon.file-icon-lg[data-type^=ppt]
+{
+  background: linear-gradient(45deg, #d24726 85.7%, #d24726 85.7%,rgba(255, 255, 255, 0) 85.7%, rgba(255, 255, 255, 0));
+}
+.file-icon[data-type^=ppt]
+{
+  background: linear-gradient(45deg, #d24726 82%, #d24726 82%,rgba(255, 255, 255, 0) 82%, rgba(255, 255, 255, 0));
+}
+.file-icon.file-icon-sm[data-type^=ppt]
+{
+  background: linear-gradient(45deg, #d24726 81%, #d24726 81%,rgba(255, 255, 255, 0) 81%, rgba(255, 255, 255, 0));
+}
+.file-icon.file-icon-xs[data-type^=ppt]
+{
+  background: linear-gradient(45deg, #d24726 79%, #d24726 79%,rgba(255, 255, 255, 0) 79%, rgba(255, 255, 255, 0));
+}
+/* pdf */
+.file-icon.file-icon-xl[data-type=pdf],
+.file-icon.file-icon-lg[data-type=pdf]
+{
+  background: linear-gradient(45deg, #e13d34 85.7%, #e13d34 85.7%,rgba(255, 255, 255, 0) 85.7%, rgba(255, 255, 255, 0));
+}
+.file-icon[data-type=pdf]
+{
+  background: linear-gradient(45deg, #e13d34 82%, #e13d34 82%,rgba(255, 255, 255, 0) 82%, rgba(255, 255, 255, 0));
+}
+.file-icon.file-icon-sm[data-type=pdf]
+{
+  background: linear-gradient(45deg, #e13d34 81%, #e13d34 81%,rgba(255, 255, 255, 0) 81%, rgba(255, 255, 255, 0));
+}
+.file-icon.file-icon-xs[data-type=pdf]
+{
+  background: linear-gradient(45deg, #e13d34 79%, #e13d34 79%,rgba(255, 255, 255, 0) 79%, rgba(255, 255, 255, 0));
+}
+/* txt */
+.file-icon.file-icon-xl[data-type=txt],
+.file-icon.file-icon-lg[data-type=txt]
+{
+  background: linear-gradient(45deg, #5eb533 85.7%, #5eb533 85.7%,rgba(255, 255, 255, 0) 85.7%, rgba(255, 255, 255, 0));
+}
+.file-icon[data-type=txt]
+{
+  background: linear-gradient(45deg, #5eb533 82%, #5eb533 82%,rgba(255, 255, 255, 0) 82%, rgba(255, 255, 255, 0));
+}
+.file-icon.file-icon-sm[data-type=txt]
+{
+  background: linear-gradient(45deg, #5eb533 81%, #5eb533 81%,rgba(255, 255, 255, 0) 81%, rgba(255, 255, 255, 0));
+}
+.file-icon.file-icon-xs[data-type=txt]
+{
+  background: linear-gradient(45deg, #5eb533 79%, #5eb533 79%,rgba(255, 255, 255, 0) 79%, rgba(255, 255, 255, 0));
+}
+/* mp3 wma m4a flac */
+.file-icon.file-icon-xl[data-type=mp3],
+.file-icon.file-icon-lg[data-type=mp3],
+.file-icon.file-icon-xl[data-type=wma],
+.file-icon.file-icon-lg[data-type=wma],
+.file-icon.file-icon-xl[data-type=m4a],
+.file-icon.file-icon-lg[data-type=m4a],
+.file-icon.file-icon-xl[data-type=flac],
+.file-icon.file-icon-lg[data-type=flac]
+{
+  background: linear-gradient(45deg, #8e44ad 85.7%, #8e44ad 85.7%,rgba(255, 255, 255, 0) 85.7%, rgba(255, 255, 255, 0));
+}
+.file-icon[data-type=mp3],
+.file-icon[data-type=wma],
+.file-icon[data-type=m4a],
+.file-icon[data-type=flac]
+{
+  background: linear-gradient(45deg, #8e44ad 82%, #8e44ad 82%,rgba(255, 255, 255, 0) 82%, rgba(255, 255, 255, 0));
+}
+.file-icon.file-icon-sm[data-type=mp3],
+.file-icon.file-icon-sm[data-type=wma],
+.file-icon.file-icon-sm[data-type=m4a],
+.file-icon.file-icon-sm[data-type=flac]
+{
+  background: linear-gradient(45deg, #8e44ad 81%, #8e44ad 81%,rgba(255, 255, 255, 0) 81%, rgba(255, 255, 255, 0));
+}
+.file-icon.file-icon-xs[data-type=mp3], 
+.file-icon.file-icon-xs[data-type=wma],
+.file-icon.file-icon-xs[data-type=m4a], 
+.file-icon.file-icon-xs[data-type=flac]
+{
+  background: linear-gradient(45deg, #8e44ad 79%, #8e44ad 79%,rgba(255, 255, 255, 0) 79%, rgba(255, 255, 255, 0));
+}
+/* mp4 wmv mov avi mkv */
+.file-icon.file-icon-xl[data-type=mp4],
+.file-icon.file-icon-lg[data-type=mp4],
+.file-icon.file-icon-xl[data-type=wmv],
+.file-icon.file-icon-lg[data-type=wmv],
+.file-icon.file-icon-xl[data-type=mov],
+.file-icon.file-icon-lg[data-type=mov],
+.file-icon.file-icon-xl[data-type=avi],
+.file-icon.file-icon-lg[data-type=avi],
+.file-icon.file-icon-xl[data-type=mkv],
+.file-icon.file-icon-lg[data-type=mkv]
+{
+  background: linear-gradient(45deg, #7a3ce7 85.7%, #7a3ce7 85.7%,rgba(255, 255, 255, 0) 85.7%, rgba(255, 255, 255, 0));
+}
+.file-icon[data-type=mp4],
+.file-icon[data-type=wmv],
+.file-icon[data-type=mov],
+.file-icon[data-type=avi],
+.file-icon[data-type=mkv]
+{
+  background: linear-gradient(45deg, #7a3ce7 82%, #7a3ce7 82%,rgba(255, 255, 255, 0) 82%, rgba(255, 255, 255, 0));
+}
+.file-icon.file-icon-sm[data-type=mp4],
+.file-icon.file-icon-sm[data-type=wmv],
+.file-icon.file-icon-sm[data-type=mov],
+.file-icon.file-icon-sm[data-type=avi],
+.file-icon.file-icon-sm[data-type=mvk]
+{
+  background: linear-gradient(45deg, #7a3ce7 81%, #7a3ce7 81%,rgba(255, 255, 255, 0) 81%, rgba(255, 255, 255, 0));
+}
+.file-icon.file-icon-xs[data-type=mp4], 
+.file-icon.file-icon-xs[data-type=wmv],
+.file-icon.file-icon-xs[data-type=mov], 
+.file-icon.file-icon-xs[data-type=avi], 
+.file-icon.file-icon-xs[data-type=mvk]
+{
+  background: linear-gradient(45deg, #7a3ce7 79%, #7a3ce7 79%,rgba(255, 255, 255, 0) 79%, rgba(255, 255, 255, 0));
+}
+/* bmp jpg jpeg gif png */
+.file-icon.file-icon-xl[data-type=bmp],
+.file-icon.file-icon-lg[data-type=bmp],
+.file-icon.file-icon-xl[data-type=jpg],
+.file-icon.file-icon-lg[data-type=jpg],
+.file-icon.file-icon-xl[data-type=jpeg],
+.file-icon.file-icon-lg[data-type=jpeg],
+.file-icon.file-icon-xl[data-type=gif],
+.file-icon.file-icon-lg[data-type=gif],
+.file-icon.file-icon-xl[data-type=png],
+.file-icon.file-icon-lg[data-type=png]
+{
+  background: linear-gradient(45deg, #f4b400 85.7%, #f4b400 85.7%,rgba(255, 255, 255, 0) 85.7%, rgba(255, 255, 255, 0));
+}
+.file-icon[data-type=bmp],
+.file-icon[data-type=jpg],
+.file-icon[data-type=jpeg],
+.file-icon[data-type=gif],
+.file-icon[data-type=png]
+{
+  background: linear-gradient(45deg, #f4b400 82%, #f4b400 82%,rgba(255, 255, 255, 0) 82%, rgba(255, 255, 255, 0));
+}
+.file-icon.file-icon-sm[data-type=bmp],
+.file-icon.file-icon-sm[data-type=jpg],
+.file-icon.file-icon-sm[data-type=jpeg],
+.file-icon.file-icon-sm[data-type=gif],
+.file-icon.file-icon-sm[data-type=png]
+{
+  background: linear-gradient(45deg, #f4b400 81%, #f4b400 81%,rgba(255, 255, 255, 0) 81%, rgba(255, 255, 255, 0));
+}
+.file-icon.file-icon-xs[data-type=bmp], 
+.file-icon.file-icon-xs[data-type=jpg],
+.file-icon.file-icon-xs[data-type=jpeg], 
+.file-icon.file-icon-xs[data-type=gif], 
+.file-icon.file-icon-xs[data-type=png]
+{
+  background: linear-gradient(45deg, #f4b400 79%, #f4b400 79%,rgba(255, 255, 255, 0) 79%, rgba(255, 255, 255, 0));
 }
